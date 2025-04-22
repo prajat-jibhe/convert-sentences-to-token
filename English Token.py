@@ -84,9 +84,9 @@ def convert_text_csv(text_csv_path, profanity_csv_path, output_csv_path=None):
 # -----------------------------
 if __name__ == "__main__":
     # Replace these paths with your actual file locations
-    text_csv_path = "C:/Users/Prajat/Downloads/New folder/English.csv"
-    profanity_csv_path = "C:/Users/Prajat/Downloads/New folder/profanity_en.csv"
-    output_csv_path = "C:/Users/Prajat/Downloads/New folder/tokenized_output.csv"
+    text_csv_path = "English.csv"   #Your path for Text and labels 
+    profanity_csv_path = "profanity_en.csv"  #list of words
+    output_csv_path = "tokenized_output.csv"  #output
 
     # Run the conversion
     result_df = convert_text_csv(text_csv_path, profanity_csv_path, output_csv_path)
